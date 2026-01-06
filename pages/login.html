@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../js/login.js"></script>
+    <link rel="stylesheet" href="../css/login.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="details">
+        <section class="playerName">
+            <label for="playerName"> שם שחקן: </label>
+            <br>
+            <input type="text" id="playerName" minlength="2" maxlength="20" required autofocus placeholder="נא מלא שם שחקן">
+        </section>
+
+        <section class="password">
+            <label for="password"> סיסמא: </label>
+            <br>
+            <input type="password" id="password" required>
+        </section>
+
+        <div class="btnLogin"> <input type="submit" id="login" onclick="login()" value="להתחברות"></div>
+        <div class="btnRegister"> <input type="submit" id="register" onclick="signup()" value="להצטרפות"></div>    </div>
+    <div class="background">
+        <div class="overlay"></div>
+    </div>
+    
+
+</body>
+</html>

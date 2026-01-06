@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../js/register.js"></script>
+    <link rel="stylesheet" href="../css/register.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="details">
+        <section class="playerName">
+            <label for="playerName"> שם שחקן:</label>
+            <br>
+            <input type="text" id="playerName" minlength="2" maxlength="20" required autofocus placeholder="נא מלא שם פרטי ומשפחה">
+        </section>
+
+        <section class="playerBirthDate">
+            <label for="playerBirthDate"> תאריך לידה:</label>
+            <br>
+            <input type="date" id="playerBirthDate" required>
+        </section>
+
+        <section class="playerMail">
+            <label for playerMail> מייל:</label>
+            <br>
+            <input type="email" id="playerMail"  placeholder="example@gmail.com" required>
+        </section>
+
+        <section class="password">
+            <label for="password"> ת.ז. / סיסמא:</label>
+            <br>
+            <input type="password" id="password" pattern="[0-9]{9}" required>
+        </section>
+
+        <!-- <div>   שם שחקן   <input type="text" id="playerName"  minlength="2" maxlength="20"></div>
+        <div>  תאריך לידה <input type="date" id="bornDate"></div>
+        <div>  מייל  <input type="email" id="mail" placeholder="example@gmail.com" required></div>
+        <div>  ת.ז. / סיסמא <input type="password" id="password" pattern="[0-9]{9}"></div> -->
+        <div class="btnRegister"> <input type="submit" id="register" onclick="register()"> </div>
+    </div>
+    <div class="background">
+        <div class="overlay"></div>
+    </div>
+    
+</body>
+</html>
