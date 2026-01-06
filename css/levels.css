@@ -1,0 +1,35 @@
+.levelsPicture{
+    background-image:url("../pictures/levels2.jpg");
+    width: 1000px;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin-left: 25%;
+    display: flex;
+}
+.levelsBody{
+    background-color: rgb(250, 174, 240);
+}
+.level1, .level2, .level3{
+    background-color: transparent;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 0px solid transparent;
+}
+
+.level1 {
+    margin-top: 536px;
+    margin-left: -576px;
+}
+
+.level2 {
+    margin-top: 428px;
+    margin-left: 364px;
+}
+
+.level3 {
+    margin-top: 598px;
+    margin-left: 62px;
+}

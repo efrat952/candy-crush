@@ -1,0 +1,144 @@
+.game{
+    background-image: url("../pictures/br2.jpg");
+    direction: rtl;
+    display: flex;
+}
+.gameBoard{
+    display:grid ;
+    grid-template-columns: repeat(auto-fit, minmax(15%, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(15%, 1fr));
+    background-color: rgb(61, 88, 106);
+    width: 600px;
+    height: 600px;
+    margin-top:5%;
+    margin-right:4%; 
+    border: 2px solid black;
+}
+
+.sideBoard {
+    background-image: url(../pictures/סרגל\ צד.png);
+    position: fixed;
+    width: 20%;
+    height: 87vh;    top: 0;
+    margin-right: 75%;
+    margin-top: 0px;
+}
+
+.yellow{
+    background-image: url("../pictures/5item5.PNG");
+}
+.red{
+    background-image: url("../pictures/3item3.PNG");
+}
+.purple{
+    background-image: url("../pictures/4item4.PNG");
+
+}
+.lightBlue{
+    background-image: url("../pictures/1item1.png");
+
+}
+.green{
+    background-image: url("../pictures/8item6.PNG");
+
+}
+.orange{
+    background-image: url("../pictures/2item2.PNG");
+
+}
+.yellow, .red, .purple, .lightBlue, .green, .orange,.VV{
+width: auto;
+height: auto;
+border:2px solid black;
+}
+.boom{
+    background-image: url("../pictures/boom.jpg");
+}
+
+.start{
+    
+    margin-top: 20%;
+}
+.goal{
+   font-size: 32px;
+   margin-top: 26vh;
+   color: rgb(255 255 255 / 84%);
+   margin-right: 1.5vw;
+   position: relative;
+   text-align: center;
+   justify-items: center;
+}
+.score, .refresh, .record{
+    width: 15.3vw;
+    height: 11.8;
+    background-color: transparent;
+    /* white(212, 34, 94); */
+    margin-top: 10.899999999999999vh;
+    margin-right: 2.9vw;
+    border-radius: 10%/90%;
+    border: 3px solid rgb(25, 116, 253);
+    font-size: 32px;
+    text-align: center;
+    justify-items: center;
+}
+.record{
+    
+}
+.moves{
+    position: relative;
+    margin-top: 35%;
+    font-size: 62px;
+    margin-right: 45%;
+    color: rgb(255 84 207);
+}
+
+.endImg{
+    width: auto;
+    height: auto;
+    /* margin-top: 20%;
+    margin-left: 30px; */
+}
+.allEndPage{
+    background-color: crimson;
+    width: 1900px;
+    height:930px;
+}
+
+.refresh:hover {
+    animation: fadeOut 0.5s ease forwards;
+    background-color: rgb(25, 116, 253);
+    border: 3px solid rgb(25, 116, 253);
+}
+
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 30%;
+    }
+}
+.gameOver{
+    background-image: url("../pictures/3dnq.gif");
+    width: 2025px;
+    height: 1017px;
+}
+.return{
+    width: 20%;
+    padding: 10px;
+    border: none;
+    border: 6px solid #ff7dbe;
+    background: #ffd6eb71;
+    color: #ff7dbe;
+    outline: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 25%;
+    margin-left: 25%;
+}
+.win{
+    background-image: url("../pictures/6iDq.gif");
+    mask-repeat: no-repeat;
+    width: 2025px;
+    height: 1017px;
+}
